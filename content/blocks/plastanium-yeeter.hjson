@@ -1,27 +1,27 @@
 type: GenericSmelter
-name: Thorium Yeeter
-description: Yeets copper to synthesize thorium.
+name: Plastanium Yeeter
+description: Yeets lead to synthesize plastanium.
 size: 3
-health: 120
+health: 130
 hasPower: false
 hasLiquids: false
 hasItems: true
 itemCapacity: 10
-craftTime: 80
+craftTime: 85
 updateEffect: mineBig
 consumes: {
   items: {
     items: [
-      copper/2
+      lead/2
     ]
   }
 }
 requirements: [
-  copper/100
+  lead/100
 ]
-outputItem: thorium/1
+outputItem: plastanium/1
 category: crafting
-research: graphite-press
+research: thorium-yeeter
 idleSound: respawning
 idleSoundVolume: 0.4
 activeSound: break

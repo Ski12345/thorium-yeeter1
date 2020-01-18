@@ -1,27 +1,27 @@
 type: GenericSmelter
-name: Thorium Yeeter
-description: Yeets copper to synthesize thorium.
+name: Surge Yeeter
+description: Yeets titanium to synthesize surge alloy.
 size: 3
-health: 120
+health: 150
 hasPower: false
 hasLiquids: false
 hasItems: true
 itemCapacity: 10
-craftTime: 80
+craftTime: 90
 updateEffect: mineBig
 consumes: {
   items: {
     items: [
-      copper/2
+      titanium/2
     ]
   }
 }
 requirements: [
-  copper/100
+  titanium/100
 ]
-outputItem: thorium/1
+outputItem: surge-alloy/1
 category: crafting
-research: graphite-press
+research: thorium-yeeter
 idleSound: respawning
 idleSoundVolume: 0.4
 activeSound: break
